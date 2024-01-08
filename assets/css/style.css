@@ -42,12 +42,22 @@ a {
 }
 /* header */
 header {
-    height: 100vh;
+    background: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+.hero-wrap {
     position: relative;
-    background-color: #e6f0ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #e6f0ff;
+    height: calc(100vh - 90px);
 }
 .navbar {
-    padding-top: 46px;
+    padding: 12px 0;
     display: flex;
     align-items: center;
 }
